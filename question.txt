@@ -1,0 +1,16 @@
+int a = 10, b, c;
+c = ++a;
+b = a++ + c--;
+System.out.println(a++, "," + b++ + "," + ++c);
+
+Step-by-step execution (VERY IMPORTANT 👇)
+
+Statement	       a	b	c
+a = 10	           10	–	–
+c = ++a	           11	–	11
+b = a++ + c--	   a=12	22	10
+
+Statements               ///     Conclusion
+print a++(post increment)///	prints 12 → a becomes 13		
+print b++(post increment)///	prints 22 → b becomes 23		
+print ++c(pre increment) ///	c becomes 11 → prints 11
