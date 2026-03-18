@@ -1,0 +1,18 @@
+String functions
+
+1.  charAt()
+2.  length()
+3.  substring() //2 methods
+4.  contains()
+5.  equals()
+6.  equalsIgnoreCase()
+7.  isEmpty()
+8.  concat()
+9.  replace()
+10. split() //2 methods
+11. intern()
+12. indexOf() //3 methods
+13. toLowerCase()
+14. toUpperCase()
+15. trim()
+16. valueOf()
